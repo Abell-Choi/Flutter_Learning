@@ -21,6 +21,8 @@ class MyApp extends StatelessWidget {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) => SecondPage()));
                   },
+                  //Navigator.push
+                  //MaterialPageRoute를 사용하자
                   child: Text('go next page')),
             ],
           ),
